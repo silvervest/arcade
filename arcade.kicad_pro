@@ -52,7 +52,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|163130000|46750000|0e2ac03b-1b09-4cef-bc52-a99984e57f3f|9cb618b4-84da-4a46-b12b-d22529eabc1d"
+      ],
       "meta": {
         "version": 2
       },
@@ -525,11 +527,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -579,15 +593,15 @@
     ],
     [
       "99701470-e37f-43d5-8ccb-532409d1660c",
-      "VGA to RGBs"
-    ],
-    [
-      "89482f60-646d-40bc-8a57-39980eed1e01",
-      "RGB amp"
+      "Video Processing"
     ],
     [
       "e62dfb6d-3767-48eb-8eec-24b8f280056e",
-      "MUX"
+      "MCU"
+    ],
+    [
+      "38d8159b-2f31-4e4b-9a1b-f3883fc199a6",
+      "IO"
     ]
   ],
   "text_variables": {}

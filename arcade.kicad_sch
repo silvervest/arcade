@@ -5,10 +5,579 @@
 	(uuid "fe21c13a-8405-4e1e-9297-688e7d18d624")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 97.79 111.76) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a3c924-3d9f-40fb-aa5d-d80620b4d2a2")
+	)
+	(wire
+		(pts
+			(xy 97.79 20.32) (xy 106.68 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c106d81-9b11-4750-b77c-ca55e26e02f7")
+	)
+	(wire
+		(pts
+			(xy 97.79 68.58) (xy 106.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19353685-5e38-4f03-a04c-f6b91166ae05")
+	)
+	(wire
+		(pts
+			(xy 97.79 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf1635f-1968-430c-9177-1756fd64be41")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4eb85e-4685-4dda-a686-9b8cdf033fc7")
+	)
+	(wire
+		(pts
+			(xy 97.79 170.18) (xy 106.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6fcd19-b6d7-492b-843f-1fa4da0ca93b")
+	)
+	(wire
+		(pts
+			(xy 97.79 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0a9f48-a59b-425f-8b95-ddac62e12321")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2137bf92-3ec6-4593-8a44-c4db165ecfa6")
+	)
+	(wire
+		(pts
+			(xy 97.79 172.72) (xy 106.68 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e1ad91-728e-4086-bbbc-646d3dab976f")
+	)
+	(wire
+		(pts
+			(xy 97.79 76.2) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba1bb81-5fdd-4c3e-a23e-dd799c3af27c")
+	)
+	(wire
+		(pts
+			(xy 97.79 27.94) (xy 106.68 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7be67a-5b6a-4ca0-b57b-5980e5c74ae9")
+	)
+	(wire
+		(pts
+			(xy 97.79 167.64) (xy 106.68 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b3c549-24a4-4fca-b6c9-76f63d928bba")
+	)
+	(wire
+		(pts
+			(xy 97.79 152.4) (xy 106.68 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34bc8f8e-599b-413a-8418-edb7b20a9cf2")
+	)
+	(wire
+		(pts
+			(xy 97.79 124.46) (xy 106.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb2a9bf-d36c-4050-8cc7-442cd38e6922")
+	)
+	(wire
+		(pts
+			(xy 97.79 73.66) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b4b8fd-4f09-414c-b843-9ce2583fa263")
+	)
+	(wire
+		(pts
+			(xy 97.79 130.81) (xy 106.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3e2eaf-5e2f-4d50-a8c3-a11327a743a1")
+	)
+	(wire
+		(pts
+			(xy 97.79 165.1) (xy 106.68 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56117699-91b7-4105-8d5f-13202f699aed")
+	)
+	(wire
+		(pts
+			(xy 97.79 93.98) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c222dc-3143-4546-8032-88466655d220")
+	)
+	(wire
+		(pts
+			(xy 97.79 78.74) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5910aa12-e97f-44c0-bd81-86ac4eb9d498")
+	)
+	(wire
+		(pts
+			(xy 97.79 139.7) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6342ecc6-821b-42d9-b9f5-68900e165031")
+	)
+	(wire
+		(pts
+			(xy 97.79 45.72) (xy 106.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634a9dd8-e38d-4136-a57b-3b89e60742dc")
+	)
+	(wire
+		(pts
+			(xy 97.79 58.42) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660e749d-e3e2-4806-9e2f-ecd21cbf5ce7")
+	)
+	(wire
+		(pts
+			(xy 97.79 121.92) (xy 106.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e10c04-83fe-428b-9dc9-cf3d90caa28f")
+	)
+	(wire
+		(pts
+			(xy 97.79 142.24) (xy 106.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73272318-bf30-43e7-add2-21cc2dea29b6")
+	)
+	(wire
+		(pts
+			(xy 97.79 48.26) (xy 106.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d18940f-5268-46a0-9606-55688bbb6e1f")
+	)
+	(wire
+		(pts
+			(xy 97.79 22.86) (xy 106.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6f7bda-4045-4358-8942-1562eb500f5a")
+	)
+	(wire
+		(pts
+			(xy 97.79 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f6ded0-358f-4069-b89b-474e1d507a7e")
+	)
+	(wire
+		(pts
+			(xy 97.79 53.34) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c77ae0-59a8-4f46-8b16-f5a53858e693")
+	)
+	(wire
+		(pts
+			(xy 97.79 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fbb1b4-fa80-448e-9c6e-e94ec7c729ad")
+	)
+	(wire
+		(pts
+			(xy 97.79 128.27) (xy 106.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f15d988-c5eb-4243-b769-bf78b97a57cb")
+	)
+	(wire
+		(pts
+			(xy 97.79 60.96) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b285684-c45a-46b9-a70e-f6986b971df4")
+	)
+	(wire
+		(pts
+			(xy 97.79 96.52) (xy 106.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b33ce6f-1d5a-46f6-b3e7-5024003da2ee")
+	)
+	(wire
+		(pts
+			(xy 97.79 38.1) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ca0b1f-d3be-45d6-a475-7ea3b04286a4")
+	)
+	(wire
+		(pts
+			(xy 97.79 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c81ee8-4ed7-462f-ba97-8b12e5ec27b4")
+	)
+	(wire
+		(pts
+			(xy 97.79 33.02) (xy 106.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98417a0-6d5b-40a7-b6ea-df4a271919c1")
+	)
+	(wire
+		(pts
+			(xy 97.79 109.22) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a833c0-7b8b-43d9-b80e-f09ddb03e7a6")
+	)
+	(wire
+		(pts
+			(xy 97.79 63.5) (xy 106.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5626d2-fa56-4d7c-b945-69c9bf604018")
+	)
+	(wire
+		(pts
+			(xy 97.79 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3e7343-b435-44b3-a507-1529ecc37c22")
+	)
+	(wire
+		(pts
+			(xy 97.79 116.84) (xy 106.68 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ab09c9-0cd7-4264-a7bb-198195eb5808")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6aa470-feeb-46e3-8667-efb13ba51145")
+	)
+	(wire
+		(pts
+			(xy 97.79 71.12) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddd6e90-d2be-4f0a-aa06-557ed1fd5d23")
+	)
+	(wire
+		(pts
+			(xy 97.79 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91581ce-2d00-44e6-9bdb-262c1faa7b56")
+	)
+	(wire
+		(pts
+			(xy 97.79 43.18) (xy 106.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9153c0-2c61-4cd6-b309-42b4f16d36d6")
+	)
+	(wire
+		(pts
+			(xy 97.79 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52dfcd9-4499-4939-9511-a4ca7c49741a")
+	)
+	(wire
+		(pts
+			(xy 97.79 35.56) (xy 106.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8987d82-af1d-49c4-9df1-f4054f4bb3d6")
+	)
+	(wire
+		(pts
+			(xy 97.79 134.62) (xy 106.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd175e45-880e-4130-b74c-49ebd46a0139")
+	)
+	(wire
+		(pts
+			(xy 97.79 149.86) (xy 106.68 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd0426f-d527-4747-8547-5a32e5508440")
+	)
+	(wire
+		(pts
+			(xy 97.79 25.4) (xy 106.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa52aa2-a139-4181-878f-3e37f528d5d5")
+	)
+	(wire
+		(pts
+			(xy 97.79 175.26) (xy 106.68 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36d72fa-7242-41e1-ac48-2006c6e02c4c")
+	)
+	(wire
+		(pts
+			(xy 97.79 30.48) (xy 106.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8afd26e-ba94-4723-982e-2e20e7f4a4af")
+	)
+	(wire
+		(pts
+			(xy 97.79 40.64) (xy 106.68 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e975962b-609b-43cd-bebc-daf45546f681")
+	)
+	(wire
+		(pts
+			(xy 97.79 55.88) (xy 106.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9be1a4d-c3b2-44f2-bdae-2b2a8328642c")
+	)
+	(wire
+		(pts
+			(xy 97.79 50.8) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaec5907-143f-43a1-8e96-74a0ece22a1d")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd77e53-99c1-4cc3-9ab4-7fe5e2f51bc5")
+	)
+	(wire
+		(pts
+			(xy 97.79 147.32) (xy 106.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7b2f19-a9f3-4b7c-90ea-e55a1e9db064")
+	)
+	(wire
+		(pts
+			(xy 97.79 137.16) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66e8aeb-5352-48a3-a036-89405745e31b")
+	)
+	(wire
+		(pts
+			(xy 97.79 154.94) (xy 106.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6f2ea7-fe7a-459c-83cf-b72bb60e560b")
+	)
 	(sheet
-		(at 116.84 47.625)
-		(size 38.1 7.62)
-		(fields_autoplaced yes)
+		(at 106.68 19.05)
+		(size 31.75 167.64)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -16,9 +585,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "89482f60-646d-40bc-8a57-39980eed1e01")
-		(property "Sheetname" "RGB amp"
-			(at 116.84 46.9134 0)
+		(uuid "38d8159b-2f31-4e4b-9a1b-f3883fc199a6")
+		(property "Sheetname" "IO"
+			(at 106.68 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,14 +595,584 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "rgb amp.kicad_sch"
-			(at 116.84 55.8296 0)
+		(property "Sheetfile" "inputs.kicad_sch"
+			(at 106.68 186.6396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "GPIO9" bidirectional
+			(at 106.68 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9bffdbb1-17bb-48d1-b800-a18acc0f19cb")
+		)
+		(pin "GPIO11" bidirectional
+			(at 106.68 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5b52471-deb2-42a0-a8ee-7f34f2c8410d")
+		)
+		(pin "GPIO12" bidirectional
+			(at 106.68 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f285fbb-2658-4e69-8ba5-2c5c0652625a")
+		)
+		(pin "GPIO10" bidirectional
+			(at 106.68 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9338951a-27a1-4b6e-824c-2f11256e91d1")
+		)
+		(pin "GPIO7" bidirectional
+			(at 106.68 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1ca5dc21-802c-4413-bfd4-9552d258d352")
+		)
+		(pin "GPIO8" bidirectional
+			(at 106.68 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea7dbde7-468f-48fe-ada1-38f0f78452c7")
+		)
+		(pin "GPIO13" bidirectional
+			(at 106.68 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c4851c1-2638-4d6b-9448-27837adb583c")
+		)
+		(pin "GPIO1" bidirectional
+			(at 106.68 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2328e7e4-bc5b-4dc0-a373-41843f44fad7")
+		)
+		(pin "GPIO3" bidirectional
+			(at 106.68 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1e226adb-30ee-4e1d-881c-683829319c8f")
+		)
+		(pin "GPIO4" bidirectional
+			(at 106.68 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eeaf8b9c-db5c-4fca-afe1-f81c5f32c449")
+		)
+		(pin "GPIO0" bidirectional
+			(at 106.68 20.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e32276a2-994f-4e3f-b7f9-a1e914d9f1c3")
+		)
+		(pin "GPIO2" bidirectional
+			(at 106.68 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ce68fdb-749b-4ba2-99ba-8082234de671")
+		)
+		(pin "GPIO5" bidirectional
+			(at 106.68 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15939d08-7594-4afb-92fa-7a74d02e0748")
+		)
+		(pin "GPIO6" bidirectional
+			(at 106.68 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "45c8079a-ec63-4179-8e13-fb3f7a2254fd")
+		)
+		(pin "OUT G" input
+			(at 106.68 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c5f3c05-ebff-41b7-900d-94fba0462fc3")
+		)
+		(pin "OUT R" input
+			(at 106.68 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b8f9fac-8676-4f09-89f6-57a241647293")
+		)
+		(pin "OUT S" input
+			(at 106.68 172.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "03bb89e6-85ef-4c8f-b955-895fb51c0c72")
+		)
+		(pin "OUT B" input
+			(at 106.68 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0059fcf5-fe74-4c0e-b5b4-f94a14de84c9")
+		)
+		(pin "GPIO14" bidirectional
+			(at 106.68 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3b162fc-9f82-4446-a467-4fedc557b566")
+		)
+		(pin "GPIO15" bidirectional
+			(at 106.68 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f30941bf-155f-4336-a93f-f7db2acd63c3")
+		)
+		(pin "GPIO17" bidirectional
+			(at 106.68 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5030e4d-ed7a-40b7-9e0e-c3a5e827ca54")
+		)
+		(pin "GPIO16" bidirectional
+			(at 106.68 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "276e1196-5505-4cac-8191-43c821fb5062")
+		)
+		(pin "GPIO19" bidirectional
+			(at 106.68 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8a68f77-3176-4b37-8c80-e5cd3f9464c0")
+		)
+		(pin "GPIO20" bidirectional
+			(at 106.68 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "65493e31-8a27-422a-ae61-7aa0433f8062")
+		)
+		(pin "GPIO21" bidirectional
+			(at 106.68 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9dd61e1f-d86e-462d-978c-e904c5bda129")
+		)
+		(pin "GPIO22" bidirectional
+			(at 106.68 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dfc46ac4-e61f-425e-96d7-3b0678b70ce7")
+		)
+		(pin "GPIO23" bidirectional
+			(at 106.68 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cc16d7ed-ab9f-45e2-8e53-910a99491d31")
+		)
+		(pin "GPIO18" bidirectional
+			(at 106.68 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f07f39b-43f1-4277-a6b2-6cb656751d32")
+		)
+		(pin "GPIO25" bidirectional
+			(at 106.68 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "913386c0-eb72-4ab1-ba4d-23a86105446a")
+		)
+		(pin "GPIO24" bidirectional
+			(at 106.68 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "de4f30a1-d8fd-496a-bda6-ffbe9038d303")
+		)
+		(pin "SCL" bidirectional
+			(at 106.68 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c455a45e-27d5-4696-8cf7-cf1e9bf62145")
+		)
+		(pin "SDA" bidirectional
+			(at 106.68 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a5b85118-52e0-4ac4-bf11-01953d93a1db")
+		)
+		(pin "OUT BLK" input
+			(at 106.68 175.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efd0e740-6030-447e-a549-55ec166cad58")
+		)
+		(pin "PS_DAT_2" bidirectional
+			(at 106.68 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55515f38-de48-41fa-9b02-61e024018d5e")
+		)
+		(pin "PS_CLK_2" bidirectional
+			(at 106.68 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ffee8deb-6149-474d-9f1f-a056f68becb3")
+		)
+		(pin "PS_CMD_2" bidirectional
+			(at 106.68 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6f29c9d-0753-44c1-ae5e-8fa7630f56ce")
+		)
+		(pin "GPIO38" bidirectional
+			(at 106.68 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8fce53b-427c-4b70-82e3-76062c3d192b")
+		)
+		(pin "GPIO37" bidirectional
+			(at 106.68 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc656ee4-6c41-4618-b1a2-c161a2b1350a")
+		)
+		(pin "GPIO39" bidirectional
+			(at 106.68 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89e83d09-5d9f-4525-a9a7-70fd2d99a652")
+		)
+		(pin "GPIO40" bidirectional
+			(at 106.68 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0cdd6fa3-8d04-4d7c-94ae-c2104219379c")
+		)
+		(pin "GPIO41" bidirectional
+			(at 106.68 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7229afc-d252-4f3d-959e-a372f102d571")
+		)
+		(pin "PS_CLK_1" bidirectional
+			(at 106.68 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2ac19c6-88b2-4c94-ae3f-657a4a46d0fd")
+		)
+		(pin "~{PS_ATT_2}" input
+			(at 106.68 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22e72db7-c638-4357-8c9a-17649a5b5c7d")
+		)
+		(pin "PS_DAT_1" bidirectional
+			(at 106.68 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8eacbd89-483b-48de-87e0-8a474c4b71d0")
+		)
+		(pin "~{PS_ATT_1}" input
+			(at 106.68 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3e1a8c0-7061-4148-9e06-5ce1c88e6104")
+		)
+		(pin "PS_CMD_1" bidirectional
+			(at 106.68 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4dec08f-760d-4876-86a7-355b914fa0a4")
+		)
+		(pin "GPIO29" bidirectional
+			(at 106.68 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ddc864da-f059-4b8e-8e02-bb9dab7e38a2")
+		)
+		(pin "GPIO30" bidirectional
+			(at 106.68 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d29f242-97fe-459b-b9ea-bf47eb210716")
+		)
+		(pin "GPIO31" bidirectional
+			(at 106.68 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf644821-3ae1-4694-aa29-73b1d9e1bc9f")
+		)
+		(pin "GPIO32" bidirectional
+			(at 106.68 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20999398-3c51-4249-9f77-88c0cdc8339e")
+		)
+		(pin "GPIO33" bidirectional
+			(at 106.68 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2f6e640-d6cc-4f16-b95d-b4ce58fc9505")
+		)
+		(pin "GPIO28" bidirectional
+			(at 106.68 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "161f122f-4632-4a2a-b6d4-06502046fc96")
+		)
+		(pin "GPIO27" bidirectional
+			(at 106.68 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8c918dd-aee3-4b9e-94c7-388b536961c4")
+		)
+		(pin "GPIO26" bidirectional
+			(at 106.68 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3afb6379-4ce3-4259-9a89-e339893a2325")
+		)
+		(pin "GPIO36" bidirectional
+			(at 106.68 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3f270ab-fa72-4a57-8865-1f52876f75b9")
+		)
+		(pin "GPIO35" bidirectional
+			(at 106.68 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4caf3874-8e1b-4c11-a015-6ba2d551651b")
+		)
+		(pin "GPIO34" bidirectional
+			(at 106.68 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e12e1f7c-3cea-4e3c-a06f-2642c70c5ed7")
 		)
 		(instances
 			(project "arcade"
@@ -44,8 +1183,8 @@
 		)
 	)
 	(sheet
-		(at 73.533 48.006)
-		(size 32.004 7.239)
+		(at 66.04 162.56)
+		(size 31.75 19.685)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -55,8 +1194,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "99701470-e37f-43d5-8ccb-532409d1660c")
-		(property "Sheetname" "VGA to RGBs"
-			(at 73.533 47.2944 0)
+		(property "Sheetname" "Video Processing"
+			(at 66.04 161.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +1204,7 @@
 			)
 		)
 		(property "Sheetfile" "vga-rgbs.kicad_sch"
-			(at 73.533 55.8296 0)
+			(at 66.04 182.8296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,17 +1212,67 @@
 				(justify left top)
 			)
 		)
+		(pin "OUT BLK" output
+			(at 97.79 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3084cc82-b85b-40b9-b641-c053dc22c9e0")
+		)
+		(pin "OUT B" output
+			(at 97.79 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d37d69a0-ec72-4eeb-bc16-6e0ec8fcf864")
+		)
+		(pin "OUT R" output
+			(at 97.79 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "94df9c6b-1635-43bf-a3e9-5663f4fb9e8f")
+		)
+		(pin "OUT G" output
+			(at 97.79 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "14567a7e-9bc1-43d7-adfc-88594c4bc367")
+		)
+		(pin "OUT S" output
+			(at 97.79 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "382f9aac-ce39-4f3a-abc7-6543cead0f6c")
+		)
 		(instances
 			(project "arcade"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
-					(page "2")
+					(page "1")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 164.592 47.879)
-		(size 33.528 7.366)
+		(at 66.04 19.05)
+		(size 31.75 137.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -93,8 +1282,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e62dfb6d-3767-48eb-8eec-24b8f280056e")
-		(property "Sheetname" "MUX"
-			(at 164.592 47.1674 0)
+		(property "Sheetname" "MCU"
+			(at 66.04 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +1292,7 @@
 			)
 		)
 		(property "Sheetfile" "rgb_mod.kicad_sch"
-			(at 164.592 55.8296 0)
+			(at 66.04 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,10 +1300,530 @@
 				(justify left top)
 			)
 		)
+		(pin "GPIO40" bidirectional
+			(at 97.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "41bbcfcf-942e-43b8-aea9-916dcc0218d3")
+		)
+		(pin "GPIO41" bidirectional
+			(at 97.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acc3e56d-292c-4f6f-a81b-a585eaa506b3")
+		)
+		(pin "SCL" bidirectional
+			(at 97.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "96484fce-71f5-4707-bb9b-11181c55c18c")
+		)
+		(pin "SDA" bidirectional
+			(at 97.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b65aa998-ce0f-4af4-9b98-fb829f6db4ae")
+		)
+		(pin "PS_CLK_2" bidirectional
+			(at 97.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23ba6e45-5f68-4492-b536-6fb2e20e7605")
+		)
+		(pin "~{PS_ATT_2}" bidirectional
+			(at 97.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6b17e343-d4bf-47d4-ae66-61745c68ff9d")
+		)
+		(pin "PS_DAT_2" bidirectional
+			(at 97.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ead45ea-7976-48dc-83fb-c2dea110b421")
+		)
+		(pin "PS_CMD_2" bidirectional
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e68c3957-353e-4e46-82cf-aef59990b07d")
+		)
+		(pin "~{PS_ATT_1}" bidirectional
+			(at 97.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "957f5cfc-69cc-4cc9-b1e1-e7e46009a23e")
+		)
+		(pin "PS_DAT_1" bidirectional
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1947dcab-10b8-4ca8-8522-148e1d772320")
+		)
+		(pin "PS_CMD_1" bidirectional
+			(at 97.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34078a27-5d83-45ed-83ff-ee70cdc2c48e")
+		)
+		(pin "PS_CLK_1" bidirectional
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ebc3f18-f384-4f43-b85c-b08ead488bf9")
+		)
+		(pin "GPIO6" bidirectional
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "27354c4d-0161-4f31-9103-c27394ff5a44")
+		)
+		(pin "GPIO7" bidirectional
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52d0c485-6a67-4e00-9911-476b2a28052c")
+		)
+		(pin "GPIO8" bidirectional
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6348227e-365b-4272-899c-c51e726271a0")
+		)
+		(pin "GPIO9" bidirectional
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be125b6c-1bcf-4d07-96d5-a4b2e4fc5a49")
+		)
+		(pin "GPIO15" bidirectional
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fba5bbfa-385e-467d-bb8f-d99316f77c0d")
+		)
+		(pin "GPIO14" bidirectional
+			(at 97.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e374243d-1b61-41dd-ba92-9baa8b3e4900")
+		)
+		(pin "GPIO10" bidirectional
+			(at 97.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a57fc58-0da5-415a-b7f3-91318a959351")
+		)
+		(pin "GPIO11" bidirectional
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76981b64-fa00-41e7-a3d5-cbf96ac3578a")
+		)
+		(pin "GPIO12" bidirectional
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64eef4f6-f0c1-4854-951b-ed4b99e76a80")
+		)
+		(pin "GPIO13" bidirectional
+			(at 97.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc4faaee-3d1a-4157-9d28-74bab256b9c1")
+		)
+		(pin "GPIO25" bidirectional
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21fb73cc-dea1-41db-a5ff-2351a0c8b612")
+		)
+		(pin "GPIO24" bidirectional
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce255953-84ad-4bcd-8e0c-b5ca335c9be4")
+		)
+		(pin "GPIO22" bidirectional
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10f6f667-1b76-40b3-ac76-9002c46416e8")
+		)
+		(pin "GPIO23" bidirectional
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22c5c7f0-85ef-4124-82d3-cbee03a01dd3")
+		)
+		(pin "GPIO2" bidirectional
+			(at 97.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95af69cf-2cbf-4943-aa3e-1c250812cf67")
+		)
+		(pin "GPIO3" bidirectional
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a1d5370e-ff33-41e3-9410-644ae755fc8b")
+		)
+		(pin "GPIO4" bidirectional
+			(at 97.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aae7c3ae-89b5-4402-af35-4883884a5815")
+		)
+		(pin "GPIO5" bidirectional
+			(at 97.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b2bda64-e258-4d15-a9a2-05ddc9e04817")
+		)
+		(pin "GPIO0" bidirectional
+			(at 97.79 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "11739c87-d4e0-475f-b972-b57522166e47")
+		)
+		(pin "GPIO1" bidirectional
+			(at 97.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f9e13157-e305-4aa0-9b99-681825658a46")
+		)
+		(pin "GPIO16" bidirectional
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fdfe46e2-a7c0-485e-ae25-025b07b8bf55")
+		)
+		(pin "GPIO17" bidirectional
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79c17b93-73d6-4d7e-afe8-a359138a4e6c")
+		)
+		(pin "GPIO18" bidirectional
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9c41df1-ec56-427f-a7d3-5ddaf8342bce")
+		)
+		(pin "GPIO19" bidirectional
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2efff0be-dbd7-4d43-abdb-bf487f5bd3cc")
+		)
+		(pin "GPIO20" bidirectional
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c833f3fc-0953-4d0d-8459-fe09e7dea441")
+		)
+		(pin "GPIO21" bidirectional
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd474805-6fc2-4ec8-ae37-2dac0758b0cc")
+		)
+		(pin "GPIO30" bidirectional
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "311298e6-78d4-4ca3-8765-234f39a2464b")
+		)
+		(pin "GPIO31" bidirectional
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c759ee30-d4d4-4770-bcc6-13148f0a611a")
+		)
+		(pin "GPIO32" bidirectional
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "276b84bb-85c4-4d50-9af5-d8250bdc244a")
+		)
+		(pin "GPIO38" bidirectional
+			(at 97.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "facbe90a-be4b-4660-b8d1-08be7716d2ce")
+		)
+		(pin "GPIO39" bidirectional
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4080874-2439-4ad9-a6b2-25c44c743a7d")
+		)
+		(pin "GPIO27" bidirectional
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49190a93-c53f-44ff-8099-8cae061a9a5e")
+		)
+		(pin "GPIO28" bidirectional
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c58fe3d-8e25-4e32-a06b-ce0f20637cc3")
+		)
+		(pin "GPIO29" bidirectional
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9ba29966-e8fe-4c57-afdc-b1c7df39426b")
+		)
+		(pin "GPIO26" bidirectional
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3150ac55-8f59-4f4f-baff-c91e5545c957")
+		)
+		(pin "GPIO33" bidirectional
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "697853b7-9a5e-4db6-a7eb-d065d3cabec2")
+		)
+		(pin "GPIO34" bidirectional
+			(at 97.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1278fd99-c14e-4f42-aab1-d0658eb90876")
+		)
+		(pin "GPIO35" bidirectional
+			(at 97.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46f25852-67e5-4e24-83db-42d32b74d56f")
+		)
+		(pin "GPIO36" bidirectional
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84742d2e-a8eb-460e-880c-906aebe6a49e")
+		)
+		(pin "GPIO37" bidirectional
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c0d7caa-c08c-4a6f-9508-72514667085b")
+		)
 		(instances
 			(project "arcade"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
-					(page "4")
+					(page "2")
 				)
 			)
 		)

@@ -9,6 +9,7 @@
 
 #define SDA_PIN 0
 #define SCL_PIN 1
+#define BLK_PIN 2
 
 /**
  * Values to control the TDA935x I2C RGB blanking setting
@@ -19,6 +20,7 @@ const uint8_t tda935x_ctrl_0_cmd = 0x4C;
 
 void hid_task(void);
 void crt_init(void);
+void crt_task(void);
 void crt_rgb_enable(void);
 
 int main() {
@@ -28,28 +30,52 @@ int main() {
     // tusb_init();
 
     // we only seem to need to do this once at startup, once the tv has warmed up
-    // give the system about 5 seconds then proceed
-    sleep_ms(5000);
+    // give the system about 10 seconds to get past VGA post stuff not in 15khz then proceed
+    sleep_ms(10000);
     crt_rgb_enable();
+
+    sleep_ms(500);
+    // start rgb blanking
+    gpio_put(BLK_PIN, 1);
 
     while (1) {
         // tud_task();
-
+        crt_task();
         // hid_task();
     }
 
 }
 
 /**
- * Init our I2C bus for use in communicating with the TDA935x jungle
+ * Init our CRT stuff
  * 
  */
 void crt_init(void) {
+    // I2C bus for use in communicating with the TDA935x jungle
     i2c_init(i2c_default, 400 * 1000);
     gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);
     gpio_pull_up(SDA_PIN);
     gpio_pull_up(SCL_PIN);
+
+    // and the blanking pin
+    gpio_set_dir(BLK_PIN, GPIO_OUT);
+    gpio_put(BLK_PIN, 0);
+}
+
+/**
+ * Perform whatever actions we need to do for CRT maintenance
+ */
+void crt_task(void) {
+    // only do stuff once every five seconds
+    const uint32_t interval_ms = 5000;
+    static uint32_t crt_start_ms = 0;
+
+    if ((board_millis() - crt_start_ms) < interval_ms) return; // not enough time
+    crt_start_ms = board_millis() + interval_ms;
+
+    // every second, send the signal to enable rgb again, just in case
+    crt_rgb_enable();
 }
 
 /**

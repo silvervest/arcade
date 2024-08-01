@@ -8,36 +8,37 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
-add_executable(controllers
-    controllers.c
+add_executable(stick
+    stick.c
     usb_descriptors.c
 )
-pico_enable_stdio_uart(controllers 0)
-pico_enable_stdio_usb(controllers 1)
+pico_enable_stdio_uart(stick 0)
+pico_enable_stdio_usb(stick 1)
 
-target_include_directories(controllers PRIVATE
+target_include_directories(stick PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}
 )
-target_link_libraries(controllers PRIVATE
+target_link_libraries(stick PRIVATE
     pico_stdlib
+    hardware_i2c
     tinyusb_device
     tinyusb_board
 )
 
-pico_add_extra_outputs(controllers)
+pico_add_extra_outputs(stick)
 
-add_executable(accessory
-    accessory.c
+add_executable(vga
+    vga.c
     usb_descriptors.c
 )
 # pico_generate_pio_header(controllers ${CMAKE_CURRENT_LIST_DIR}/spi.pio)
-pico_enable_stdio_uart(accessory 0)
-pico_enable_stdio_usb(accessory 1)
+pico_enable_stdio_uart(vga 0)
+pico_enable_stdio_usb(vga 1)
 
-target_include_directories(accessory PRIVATE
+target_include_directories(vga PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}
 )
-target_link_libraries(accessory PRIVATE
+target_link_libraries(vga PRIVATE
     pico_stdlib
     # hardware_pio
     hardware_i2c
@@ -45,4 +46,4 @@ target_link_libraries(accessory PRIVATE
     tinyusb_board
 )
 
-pico_add_extra_outputs(accessory)
+pico_add_extra_outputs(vga)

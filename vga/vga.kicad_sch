@@ -4698,14 +4698,14 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC847BDW1"
+		(symbol "Transistor_BJT:BC847"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4713,8 +4713,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC847BDW1"
-				(at 5.08 -1.27 0)
+			(property "Value" "BC847"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4722,16 +4722,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
+			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4740,7 +4752,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(property "ki_keywords" "NPN Small Signal Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4749,15 +4761,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN/NPN Transistor"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4766,28 +4770,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BC847BDW1_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "BC847_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -4848,11 +4831,11 @@
 					)
 				)
 			)
-			(symbol "BC847BDW1_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
+			(symbol "BC847_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4867,10 +4850,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "B1"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4888,27 +4871,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "BC847BDW1_2_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4916,42 +4879,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7054,6 +6981,82 @@
 		(uuid "df337347-e95d-4258-9746-071096dfc5d0")
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 134.62 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02b4eee8-4876-41e2-980e-2a6f2e7104ad")
+		(property "Reference" "Q2"
+			(at 139.7 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 139.7 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 139.7 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c1536374-61f0-4957-b70f-55eda448250e")
+		)
+		(pin "1"
+			(uuid "76c10686-4ccd-430b-9ffb-80aa57ac0361")
+		)
+		(pin "2"
+			(uuid "9cba54cf-5b67-4488-8ca8-9c453c1a353e")
+		)
+		(instances
+			(project "vga"
+				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 107.95 0)
 		(unit 1)
@@ -7111,7 +7114,7 @@
 			(uuid "a43fc05c-dee5-4062-83d6-6e997b177b5d")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR010")
 					(unit 1)
@@ -7177,7 +7180,7 @@
 			(uuid "6be77f64-deac-46e7-9ff5-9459815fbd1c")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR02")
 					(unit 1)
@@ -7245,7 +7248,7 @@
 			(uuid "d04976cb-32d4-445e-8062-2254bf9a5b51")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R11")
 					(unit 1)
@@ -7313,7 +7316,7 @@
 			(uuid "22769da1-c3bf-4ea1-8f6d-a194d9445aed")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R10")
 					(unit 1)
@@ -7537,7 +7540,7 @@
 			(uuid "8a9484bf-84d5-4048-a4ca-fc490185ba43")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "IC1")
 					(unit 1)
@@ -7603,9 +7606,85 @@
 			(uuid "25c0beb6-97c5-4a2c-9fdc-b1c16a4cb7c0")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 123.19 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31bc98fd-4dd3-495f-a077-99272d0e57a7")
+		(property "Reference" "Q1"
+			(at 128.27 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 128.27 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 128.27 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a7b3bc80-9d72-44a7-9717-8401ec1bed5d")
+		)
+		(pin "1"
+			(uuid "24df71fb-5f21-40b6-992d-5e9e436e82e3")
+		)
+		(pin "2"
+			(uuid "f4bc59cf-0c81-4bb1-8739-9c6ac20fa05e")
+		)
+		(instances
+			(project "vga"
+				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7637,7 +7716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 63.5 86.36 0)
 			(effects
 				(font
@@ -7707,7 +7786,7 @@
 			(uuid "6fac148d-4f42-4415-884f-a9ee8838627d")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "U1")
 					(unit 2)
@@ -7773,7 +7852,7 @@
 			(uuid "f07ed6b7-691e-42e3-9226-b4fb76117a5f")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR013")
 					(unit 1)
@@ -7807,7 +7886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -7877,7 +7956,7 @@
 			(uuid "6fac148d-4f42-4415-884f-a9ee8838627a")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "U1")
 					(unit 3)
@@ -7943,7 +8022,7 @@
 			(uuid "81f6604a-1a3e-4b9e-a259-2aeddf10aecb")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR015")
 					(unit 1)
@@ -8009,7 +8088,7 @@
 			(uuid "e566af9c-1bfa-455d-90df-99c25adb47b8")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR09")
 					(unit 1)
@@ -8075,7 +8154,7 @@
 			(uuid "12c54816-8f25-4ab6-957c-f05457d031ce")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR07")
 					(unit 1)
@@ -8145,7 +8224,7 @@
 			(uuid "802e40e4-c0e3-4bf0-b52c-ad8065e32474")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "C2")
 					(unit 1)
@@ -8215,7 +8294,7 @@
 			(uuid "8e0efe8f-21b4-44d4-8a6c-e4fd8d02b9a7")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "C8")
 					(unit 1)
@@ -8281,92 +8360,10 @@
 			(uuid "b4577bf6-ec6f-4863-ad28-b2724f21b2a1")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR06")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC847BDW1")
-		(at 134.62 73.66 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55812b89-b995-4ab0-8667-1cadd75ea8c2")
-		(property "Reference" "Q1"
-			(at 139.7 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC847BDW1"
-			(at 139.7 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 139.7 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "db944461-f3ce-4ed4-a975-03c648fe3933")
-		)
-		(pin "1"
-			(uuid "061a65f3-3763-42fa-9151-e2f4df661065")
-		)
-		(pin "6"
-			(uuid "a1a961e5-1318-4e3a-a212-469aa46df2b3")
-		)
-		(pin "4"
-			(uuid "da454bf2-2516-41e7-9782-14f0d9699000")
-		)
-		(pin "5"
-			(uuid "fabe20d9-17da-43ba-8882-243cab813f20")
-		)
-		(pin "2"
-			(uuid "996b1f34-26b0-46a9-a688-6781872af92e")
-		)
-		(instances
-			(project "arcade"
-				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
-					(reference "Q1")
-					(unit 2)
 				)
 			)
 		)
@@ -8429,7 +8426,7 @@
 			(uuid "1748fcad-7966-40f8-baa5-49ece6749c09")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR01")
 					(unit 1)
@@ -8495,7 +8492,7 @@
 			(uuid "aa450d05-3345-4973-b857-55a136d67597")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR011")
 					(unit 1)
@@ -8565,7 +8562,7 @@
 			(uuid "92d05cdc-0f76-461b-a7a7-3e132646487b")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R12")
 					(unit 1)
@@ -8673,7 +8670,7 @@
 			(uuid "bfc1dfac-3183-4041-ba19-abc063562c2a")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "J1")
 					(unit 1)
@@ -8743,7 +8740,7 @@
 			(uuid "51676c58-64a2-46fc-a6ae-0c2b87254a81")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "C6")
 					(unit 1)
@@ -8776,7 +8773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 104.14 71.12 0)
 			(effects
 				(font
@@ -8846,7 +8843,7 @@
 			(uuid "6fac148d-4f42-4415-884f-a9ee8838627b")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "U1")
 					(unit 4)
@@ -8915,7 +8912,7 @@
 			(uuid "16362b42-0a31-48d8-b45a-5e89635ac59b")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "C4")
 					(unit 1)
@@ -8984,7 +8981,7 @@
 			(uuid "2b91ceb7-f0a1-4e44-b097-b0e88f8e107d")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R5")
 					(unit 1)
@@ -9050,7 +9047,7 @@
 			(uuid "b83229b9-77e0-4d5e-a4a0-2c622cd7f674")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR017")
 					(unit 1)
@@ -9116,7 +9113,7 @@
 			(uuid "3ea76b18-6b88-4e72-a113-255154d07f1b")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR08")
 					(unit 1)
@@ -9184,7 +9181,7 @@
 			(uuid "4fefed91-9660-4630-892f-37d7d50c3fa3")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R1")
 					(unit 1)
@@ -9252,7 +9249,7 @@
 			(uuid "6f275478-8baa-452d-903a-b7de928cddb1")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R13")
 					(unit 1)
@@ -9320,7 +9317,7 @@
 			(uuid "d2db8951-a4ce-4a56-98d4-57b56550a3d7")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R9")
 					(unit 1)
@@ -9389,7 +9386,7 @@
 			(uuid "8d3d593d-4c78-41d1-8557-8ef693b6057c")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "C5")
 					(unit 1)
@@ -9423,7 +9420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -9493,7 +9490,7 @@
 			(uuid "068c38e6-6381-4809-bac4-3f23f8926574")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "U1")
 					(unit 1)
@@ -9559,7 +9556,7 @@
 			(uuid "0d4dd760-a7cb-438b-9ce2-2d900bd0f978")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR016")
 					(unit 1)
@@ -9595,7 +9592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -9665,7 +9662,7 @@
 			(uuid "6fac148d-4f42-4415-884f-a9ee8838627c")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "U1")
 					(unit 5)
@@ -9734,7 +9731,7 @@
 			(uuid "24f3df36-e71c-4277-98b2-d8bcb4bc6ddb")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R8")
 					(unit 1)
@@ -9803,7 +9800,7 @@
 			(uuid "012863ed-79ab-42f9-be95-1679cbbc5ede")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R6")
 					(unit 1)
@@ -9888,7 +9885,7 @@
 			(uuid "6250ba46-d091-4a1f-9289-de0d77a4d3af")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "J2")
 					(unit 1)
@@ -9954,7 +9951,7 @@
 			(uuid "e72a37d8-f80d-489b-9d2a-36b2b3685777")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR014")
 					(unit 1)
@@ -10023,7 +10020,7 @@
 			(uuid "11d51c1a-7e5b-4051-a53a-05419605e863")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R3")
 					(unit 1)
@@ -10092,7 +10089,7 @@
 			(uuid "daa9b65e-66e0-4eef-8a4c-3c0067307e30")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R4")
 					(unit 1)
@@ -10158,7 +10155,7 @@
 			(uuid "1464698a-a845-45db-b6dd-7f4e6c4c5878")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR04")
 					(unit 1)
@@ -10349,7 +10346,7 @@
 			(uuid "c0f9c2e5-4172-4c70-81c5-228f88a7b4e7")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "U2")
 					(unit 1)
@@ -10417,7 +10414,7 @@
 			(uuid "234495f1-8005-433a-91f1-d1a5e3a58a4b")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R2")
 					(unit 1)
@@ -10486,7 +10483,7 @@
 			(uuid "3cef4d95-e34b-44c7-ac2a-a16cac6204b2")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "R7")
 					(unit 1)
@@ -10555,7 +10552,7 @@
 			(uuid "d63b8acd-7359-4aaa-ad55-93e9f0475e49")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "C7")
 					(unit 1)
@@ -10625,7 +10622,7 @@
 			(uuid "43a0c2d5-bf68-4ccb-8cac-09431e4f44d6")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "C1")
 					(unit 1)
@@ -10691,7 +10688,7 @@
 			(uuid "c7bc37e3-57e4-424f-8a71-752f8dcaecd6")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR03")
 					(unit 1)
@@ -10761,7 +10758,7 @@
 			(uuid "b82ca363-4c1f-4600-9ab9-1f72b190b463")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "JPA1")
 					(unit 1)
@@ -10830,7 +10827,7 @@
 			(uuid "6a8a4daf-d266-4349-b234-ba342a0e6f50")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "C3")
 					(unit 1)
@@ -10896,91 +10893,9 @@
 			(uuid "8990d52d-b026-4c15-b477-692febbcf2e8")
 		)
 		(instances
-			(project "arcade"
+			(project "vga"
 				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC847BDW1")
-		(at 123.19 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff053cca-e79a-4484-adbb-ff81d254c3a1")
-		(property "Reference" "Q1"
-			(at 128.27 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC847BDW1"
-			(at 128.27 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 128.27 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
-			(at 123.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 123.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "db944461-f3ce-4ed4-a975-03c648fe3934")
-		)
-		(pin "1"
-			(uuid "061a65f3-3763-42fa-9151-e2f4df661066")
-		)
-		(pin "6"
-			(uuid "a1a961e5-1318-4e3a-a212-469aa46df2b4")
-		)
-		(pin "4"
-			(uuid "da454bf2-2516-41e7-9782-14f0d9699001")
-		)
-		(pin "5"
-			(uuid "fabe20d9-17da-43ba-8882-243cab813f21")
-		)
-		(pin "2"
-			(uuid "996b1f34-26b0-46a9-a688-6781872af92f")
-		)
-		(instances
-			(project "arcade"
-				(path "/fe21c13a-8405-4e1e-9297-688e7d18d624"
-					(reference "Q1")
 					(unit 1)
 				)
 			)

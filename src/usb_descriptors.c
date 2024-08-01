@@ -94,13 +94,13 @@ uint8_t const desc_hid_report[] =
     0x35, 0x00,        //   Physical Minimum (0)
     0x45, 0x01,        //   Physical Maximum (1)
     0x75, 0x01,        //   Report Size (1)
-    0x95, 0x09,        //   Report Count (9)
+    0x95, 0x0C,        //   Report Count (12)
     0x05, 0x09,        //   Usage Page (Button)
     0x19, 0x01,        //   Usage Minimum (0x01)
-    0x29, 0x09,        //   Usage Maximum (0x09)
+    0x29, 0x0C,        //   Usage Maximum (0x09)
     0x81, 0x02,        //   Input (Data,Var,Abs,No Wrap,Linear,Preferred State,No Null Position)
     0x95, 0x01,        //   ReportCount(1)
-    0x75, 0x07,        //   ReportSize(7)
+    0x75, 0x04,        //   ReportSize(4)
     0x81, 0x03,        //   Input(Constant, Variable, Absolute, NoWrap, Linear, PreferredState, NoNullPosition, BitField)
     0xC0,              // End Collection
 };
